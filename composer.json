@@ -1,0 +1,32 @@
+{
+  "version": "0.1",
+  "name": "mouctar/orange-money-sdk",
+  "description": "Orange Money for PHP project",
+  "type": "libary",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Tm\\OrangeMoneySDK\\": "src/",
+      "Tm\\OrangeMoneySDK\\Test\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mamadou Mouctar Diallo",
+      "email": "mamadou@mouctar.dev"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "symfony/http-client": "^6.3"
+  },
+  "scripts": {
+    "phpunit": "vendor/bin/phpunit",
+    "phpstan": "vendor/bin/phpstan"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.9",
+    "phpunit/phpunit": "^9.5",
+    "symfony/var-dumper": "^6.3"
+  }
+}
