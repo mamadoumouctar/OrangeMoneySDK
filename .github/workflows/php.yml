@@ -1,4 +1,4 @@
-name: PHP Composer
+name: Orange Money SDK Test
 
 on:
   push:
