@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress
       - name: Run code sniper
-        run: composer run-script phpunit
+        run: composer run-script phpstan
 
   phpunit-tests:
     environment: testing
